@@ -125,3 +125,10 @@ header a {
 .reason {
     padding: 5%;
 }
+
+/* Showcase Section */
+
+#showcase {
+    background: url('../images/pexels-markus-spiske-1089438.jpg') fixed no-repeat bottom/200%;
+    height: 520px;
+}
