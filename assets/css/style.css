@@ -208,3 +208,31 @@ header a {
     line-height: 40px;
     list-style: none;
 }
+
+/* Footer */
+
+footer {
+    height: 160px;
+    width: 100%;
+    background-color: rgba(24, 24, 27, .9);
+    color: #d4d4d8;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 200%;
+}
+
+#bots {
+
+}
+
+.footer-third {
+
+}
