@@ -143,10 +143,14 @@ header a {
 }
 
 #support {
-    visibility: hidden;
+    visibility: visible;
 }
 
 #rcon {
+    visibility: hidden;
+}
+
+#event {
     visibility: hidden;
 }
 
@@ -160,6 +164,10 @@ header a {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 5% 30% 1fr 10%;
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
 }
 
 .showcase-image-container {
