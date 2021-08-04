@@ -233,6 +233,22 @@ footer ul {
 
 }
 
+#social {
+    list-style: none;
+    grid-area: 2 / 1 / 4 / 4;
+}
+
+#social a {
+    text-decoration-style: none;
+    color: #fff;
+}
+
+#social li {
+    display: inline;
+    margin: auto 10%;
+    font-size: 20px;
+}
+
 .footer-third {
 
 }
