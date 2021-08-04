@@ -229,10 +229,6 @@ footer ul {
     line-height: 200%;
 }
 
-#bots {
-
-}
-
 #social {
     list-style: none;
     grid-area: 2 / 1 / 4 / 4;
