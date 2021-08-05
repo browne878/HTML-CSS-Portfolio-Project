@@ -75,7 +75,7 @@ header a {
 }
 
 #bot-image {
-    background: url('../images/pexels-jorge-jesus-614117.jpg') no-repeat center / cover;
+    background: url('../images/code-background.jpg') no-repeat center / cover;
     grid-area: 1 / 1 / 6 / 5;
 }
 
@@ -129,7 +129,7 @@ header a {
 /* Showcase Section */
 
 #showcase {
-    background: url('../images/pexels-markus-spiske-1089438.jpg') fixed no-repeat bottom/300%;
+    background: url('../images/matrix-background.jpg') fixed no-repeat bottom/300%;
     height: 520px;
 }
 
