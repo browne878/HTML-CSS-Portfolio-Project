@@ -266,6 +266,8 @@ footer ul {
 
 body {
     background-color: #1E1F1F;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #C1C3C3;
 }
 
 .bot-description > div {
@@ -281,12 +283,28 @@ body {
     background-color: rgba(70, 73, 73, .9);
     grid-area: 2 / 2;
     border-radius: 10%;
+
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 2fr 7fr 10fr 1fr;
+}
+
+.bot-tile > .showcase-image-container {
+    grid-area: 2 / 2;
+    justify-content: center;
+    align-content: center;
 }
 
 /* Support bot section */
 
 #support-description {
     padding-top: 75px;
+}
+
+#support-description .bot-tile > h2 {
+    grid-area: 1 / 2;
+    text-align: center;
+    margin-top: 5%;
 }
 
 /* Rcon bot section */
