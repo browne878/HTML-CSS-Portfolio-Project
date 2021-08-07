@@ -264,6 +264,10 @@ footer ul {
 
 /* Section Layout */
 
+body {
+    background-color: #1E1F1F;
+}
+
 .bot-description > div {
     height: 520px;
     background-color: #1E1F1F;
@@ -277,4 +281,18 @@ footer ul {
     background-color: rgba(70, 73, 73, .9);
     grid-area: 2 / 2;
     border-radius: 10%;
+}
+
+/* Support bot section */
+
+#support-description {
+    padding-top: 75px;
+}
+
+/* Rcon bot section */
+
+/* Event bot section */
+
+#event-description {
+    padding-bottom: 50px;
 }
