@@ -259,3 +259,22 @@ footer ul {
 .footer-third ul a:hover {
     color: #fff;
 }
+
+/* ----- Bot Page ----- */
+
+/* Section Layout */
+
+.bot-description > div {
+    height: 520px;
+    background-color: #1E1F1F;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 10fr;
+}
+
+.bot-tile {
+    background-color: rgba(70, 73, 73, .9);
+    grid-area: 2 / 2;
+    border-radius: 10%;
+}
