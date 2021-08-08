@@ -279,6 +279,29 @@ body {
     grid-template-rows: 1fr 10fr;
 }
 
+.bot-description .bot-tile > h2 {
+    grid-area: 1 / 2;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 5%;
+}
+
+.bot-description .bot-tile > p {
+    font-size: 0.8rem;
+
+    grid-area: 3 / 2;
+}
+
+.bot-description .bot-tile > button {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    width: fit-content;
+    margin-left: 65%;
+
+    grid-area: 4 / 2;
+}
+
 .bot-tile {
     background-color: rgba(70, 73, 73, .9);
     grid-area: 2 / 2;
@@ -295,32 +318,24 @@ body {
     align-content: center;
 }
 
+/* More Info Layout */
+
+.bot-more-info {
+    background-color: red;
+    width: 80%;
+    height: 80%;
+    position: fixed;
+}
+
 /* Support bot section */
 
 #support-description {
     padding-top: 75px;
 }
 
-#support-description .bot-tile > h2 {
-    grid-area: 1 / 2;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: 5%;
-}
+/* Support Bot Info */
 
-#support-description .bot-tile > p {
-    font-size: 0.8rem;
 
-    grid-area: 3 / 2;
-}
-
-#support-description .bot-tile > a {
-    color: inherit;
-    text-align: right;
-
-    grid-area: 4 / 2;
-}
 
 /* Rcon bot section */
 
@@ -328,4 +343,8 @@ body {
 
 #event-description {
     padding-bottom: 50px;
+}
+
+.bot-description {
+    /* visibility: hidden; */
 }
