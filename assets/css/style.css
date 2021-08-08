@@ -286,7 +286,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 2fr 7fr 10fr 1fr;
+    grid-template-rows: 2fr 7fr 9fr  1fr 1fr;
 }
 
 .bot-tile > .showcase-image-container {
@@ -303,8 +303,23 @@ body {
 
 #support-description .bot-tile > h2 {
     grid-area: 1 / 2;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
+    letter-spacing: 2px;
     margin-top: 5%;
+}
+
+#support-description .bot-tile > p {
+    font-size: 0.8rem;
+
+    grid-area: 3 / 2;
+}
+
+#support-description .bot-tile > a {
+    color: inherit;
+    text-align: right;
+
+    grid-area: 4 / 2;
 }
 
 /* Rcon bot section */
