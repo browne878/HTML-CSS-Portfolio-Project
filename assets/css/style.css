@@ -154,6 +154,10 @@ header a {
     visibility: hidden;
 }
 
+#event-image {
+    bottom: 0%;
+}
+
 .showcase-bot {
     height: 100%;
     width: 100%;
