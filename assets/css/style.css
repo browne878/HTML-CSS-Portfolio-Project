@@ -337,3 +337,35 @@ body {
 #event-description {
     padding-bottom: 50px;
 }
+
+/* ----- About Page ----- */
+
+/* Section Layout */
+
+.about-section > div {
+    height: 520px;
+}
+
+#about-who {
+    height: 600px;
+}
+
+#about-who,
+#about-why {
+    background-color: rgba(70, 73, 73, .9);
+}
+
+/* Who we are Section */
+
+#about-who h2 {
+    text-align: center;
+    padding-top: 25%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+#about-who p {
+    margin: 10% 5%;
+    text-align: center;
+}
