@@ -306,6 +306,10 @@ body {
     grid-area: 4 / 2;
 }
 
+.bot-description .bot-tile > button:hover {
+    color: #A5A8A8;
+}
+
 .bot-tile {
     background-color: rgba(70, 73, 73, .9);
     grid-area: 2 / 2;
@@ -322,33 +326,14 @@ body {
     align-content: center;
 }
 
-/* More Info Layout */
-
-.bot-more-info {
-    background-color: red;
-    width: 80%;
-    height: 80%;
-    position: fixed;
-}
-
 /* Support bot section */
 
 #support-description {
     padding-top: 75px;
 }
 
-/* Support Bot Info */
-
-
-
-/* Rcon bot section */
-
 /* Event bot section */
 
 #event-description {
     padding-bottom: 50px;
-}
-
-.bot-description {
-    /* visibility: hidden; */
 }
