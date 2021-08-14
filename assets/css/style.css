@@ -346,16 +346,16 @@ body {
     height: 520px;
 }
 
-#about-who {
-    height: 600px;
-}
-
-#about-who,
 #about-why {
     background-color: rgba(70, 73, 73, .9);
 }
 
 /* Who we are Section */
+
+#about-who {
+    height: 600px;
+    background-color: rgba(70, 73, 73, .9);
+}
 
 #about-who h2 {
     text-align: center;
@@ -366,6 +366,36 @@ body {
 }
 
 #about-who p {
+    margin: 10% 5%;
+    text-align: center;
+}
+
+/* What we do Section */
+
+#about-what h2 {
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+#about-what p {
+    margin: 10% 5%;
+    text-align: center;
+}
+
+/* Why we do this Section */
+
+#about-why h2 {
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+#about-why p {
     margin: 10% 5%;
     text-align: center;
 }
