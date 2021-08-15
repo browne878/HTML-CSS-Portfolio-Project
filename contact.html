@@ -36,78 +36,61 @@
         <div id="header-bar"></div>
     </header>
 
-    <section class="bot-description" id="support-description">
-        <div>
-            <div class="bot-tile">
-                <h2>Support Bot</h2>
 
-                <div class="showcase-image-container">
-                    <img src="/assets/images/support-bot.jpg" alt="Support Robot with a speach bubble">
-                </div>
+    <section>
+        <div id="contact-form">
+            <form action="">
+                <h3>What would you like to contact us about?</h3>
 
-                <p>Our Support Bot is custom made to fit your needs.
-                    <br>
-                    <br>
-                    Our goal with this bot is to improve response times and allow the relevant memebers of your team to handle the issues assigned to them.
-                    <br>
-                    <br>
-                    We also wanted to be able to store support queries to be reopened if an issue reoccurs.
-                </p>
+                <br><br>
+                
+                <span class="contact-reason">
+                    <label for="newsletter">Newsletter</label>
+                    <input type="radio" name="contact-type" id="newsletter" value="newsletter" required>
+                </span>
+                
+                <span class="contact-reason">
+                    <label for="support">Support</label>
+                    <input type="radio" name="contact-type" id="support" value="support" required>
+                </span>
 
-                <button class="info-button">Read More <i class="fas fa-caret-right"></i></button>
-            </div>
-        </div>
-    </section>
+                <span class="contact-reason">
+                    <label for="collaboration">Collaboration</label>
+                    <input type="radio" name="contact-type" id="collaboration" value="collaboration" required>
+                </span>
 
-    <section class="bot-description" id="rcon-description">
-        <div>
-            <div class="bot-tile">
-                <h2>Rcon Bot</h2>
+                <br><br>
 
-                <div class="showcase-image-container">
-                    <img src="/assets/images/api-icon.jpg" alt="API icon">
-                </div>
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
 
-                <p>Our Rcon Bot was designed to address issues and make life easier.
-                    <br>
-                    <br>
-                    We decided to develop this bot to reduce the complexity of handling issues. Our goal was to make sending commands easy and simplify some admin duties.
-                    <br>
-                    <br>
-                    We also added RCON commands to discord slash commands!
-                </p>
+                <br><br>
 
-                <button class="info-button">Read More <i class="fas fa-caret-right"></i></button>
-            </div>
-        </div>
-    </section>
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
 
-    <section class="bot-description" id="event-description">
-        <div>
-            <div class="bot-tile">
-                <h2>Event Bot</h2>
+                <br><br>
 
-                <div class="showcase-image-container">
-                    <img src="/assets/images/confetti-background.jpg" alt="Colourful confetti icon" id="event-image">
-                </div>
+                <label for="github">Github URL</label>
+                <input type="url" name="github" placeholder="https://github.com/(Username_here)">
 
-                <p>Our Event bot was designed to make organising community events easier.
-                    <br>
-                    <br>
-                    Our goal with this bot was to allow admins to prepare events with only 1 or 2 commands.
-                    <br>
-                    <br>
-                    We also wanted the bot to calculate the results of polls and suggestions so we decided to Automate this process.
-                </p>
+                <br><br>
 
-                <button class="info-button">Read More <i class="fas fa-caret-right"></i></button>
-            </div>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message Here" required></textarea>
+
+                <br><br>
+
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
         </div>
     </section>
 
     <footer>
         <div class="footer-third" id="bots">
-            <h3><a href="bots.html">Bots</a></h3>
+            <h3><a href="#">Bots</a></h3>
             <ul>
                 <li><a href="#">Bot 1</a></li>
 
