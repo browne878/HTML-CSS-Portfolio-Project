@@ -397,18 +397,95 @@ body {
 
 /* Contact Page */
 
+fieldset > div{
+    display: grid;
+
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 3rem 3rem 3rem;
+}
+
 .contact-reason {
     padding: 1rem;
 }
 
+.text-box {
+    height: 25px;
+    width: 80%;
+}
+
 #contact-form {
     text-align: center;
-    height: 520px;
+    height: 800px;
     padding: 5% 5%;
 }
 
 #contact-form h3 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 2px;
+}
+
+#contact-form input {
+    background-color: rgba(70, 73, 73, 0.5);
+    border: solid 1px #141515;
+    border-radius: 20px;
+    padding: 5px;
+    color: inherit;
+}
+
+#contact-form textarea {
+    background-color: rgba(70, 73, 73, 0.5);
+    border: solid 1px #141515;
+    border-radius: 20px;
+    padding: 10px;
+    color: inherit;
+}
+
+#newsletter-label {
+    grid-area: 1 / 2;
+    place-self: center;
+}
+
+#radio-newsletter {
+    grid-area: 1 / 3;
+    place-self: center;
+}
+
+#support-label {
+    grid-area: 2 / 2;
+    place-self: center;
+}
+
+#radio-support {
+    grid-area: 2 / 3;
+    place-self: center;
+}
+
+#collaboration-label {
+    grid-area: 3 / 2;
+    place-self: center;
+}
+
+#radio-collaboration {
+    grid-area: 3 / 3;
+    place-self: center;
+}
+
+#contact-form #reset,
+#contact-form #submit {
+    margin: 20px;
+    height: 2rem;
+    width: 5rem;
+}
+
+#contact-form #reset:hover,
+#contact-form #submit:hover {
+    color: rgba(70, 73, 73, 0.5);
+    background-color: #d4d4d8;
+}
+
+#alt-contact {
+    height: 120px;
+    text-align: center;
+    place-self: center;
 }
