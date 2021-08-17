@@ -309,6 +309,7 @@ body {
     background-color: rgba(70, 73, 73, .9);
     grid-area: 2 / 2;
     border-radius: 40px;
+    box-shadow: 5px 5px #141515;
 
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
