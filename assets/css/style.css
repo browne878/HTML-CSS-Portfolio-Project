@@ -164,7 +164,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(24, 24, 27, .9);
-    border-radius: 10%;
+    border-radius: 40px;
     grid-area: 2 / 2;
     
     display: grid;
@@ -308,7 +308,7 @@ body {
 .bot-tile {
     background-color: rgba(70, 73, 73, .9);
     grid-area: 2 / 2;
-    border-radius: 10%;
+    border-radius: 40px;
 
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
