@@ -20,8 +20,8 @@ body {
     letter-spacing: 2px;
     position: fixed;
     z-index: 10;
-    background-color: rgba(24, 24, 27, .9);
-    color: #d4d4d8;
+    background-color: rgba(20, 21, 21, .9);
+    color: #C1C3C3;
     width: 100%;
     height: 80px;
 
@@ -83,14 +83,14 @@ body {
 
 #bot-brief {
     grid-area: 4 / 3 / 5 / 4;
-    color: #d4d4d8;
-    background-color: rgba(24, 24, 27, .7);
+    color: #C1C3C3;
+    background-color: rgba(30, 31, 31, .7);
     text-align: center;
     padding: 1em;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
-    border-radius: 10%;
+    border-radius: 40px;
 }
 
 #bot-brief h2 {
@@ -103,9 +103,9 @@ body {
 /* Purpose section */
 
 #reason-section {
-    background-color: #18181b;
+    background-color: #1E1F1F;
     height: 520px;
-    color: #d4d4d8;
+    color: #C1C3C3;
     text-align: center;
 }
 
@@ -163,7 +163,7 @@ body {
 .showcase-bot {
     height: 100%;
     width: 100%;
-    background-color: rgba(24, 24, 27, .9);
+    background-color: rgba(30, 31, 31, .9);
     border-radius: 40px;
     grid-area: 2 / 2;
     
@@ -193,7 +193,7 @@ body {
 
 .showcase-bot div:last-child {
     grid-area: 3 / 2;
-    color: #d4d4d8;
+    color: #C1C3C3;
     text-align: center;
 }
 
@@ -215,7 +215,7 @@ body {
 footer {
     height: 160px;
     width: 100%;
-    background-color: rgba(24, 24, 27, .9);
+    background-color: rgba(20, 21, 21, .9);
     color: #d4d4d8;
     text-align: center;
 
@@ -250,13 +250,17 @@ footer > p {
 
 #social a {
     text-decoration-style: none;
-    color: #fff;
+    color: #C1C3C3;
 }
 
 #social li {
     display: inline;
     margin: auto 10%;
     font-size: 30px;
+}
+
+#social a:hover {
+    color: #fff;
 }
 
 /* ----- Bot Page ----- */
