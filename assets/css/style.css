@@ -341,25 +341,27 @@ body {
 .info-header {
     background: blue;
     height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 .info-icon {
-    display: inline-flex;
-    height: 80px;
     width: 80px;
-    overflow: hidden;
+    height: 80px;
 }
 
 .info-icon > img {
-    transform: scale(.9);
+    width: 70px;
+    margin: 5px;
 }
 
-.info-title {
-    display: inline-block;
-    width: 160px;
-    height: 80px;
-    clear: both;
-    align-self: stretch;
-    justify-self: stretch;
+.info-close {
+    font-size: 25px;
 }
 
 /* Event bot section */
