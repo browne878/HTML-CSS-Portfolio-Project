@@ -156,10 +156,6 @@ body {
     visibility: hidden;
 }
 
-#event-image {
-    bottom: 0%;
-}
-
 .showcase-bot {
     height: 100%;
     width: 100%;
@@ -273,7 +269,7 @@ body {
     color: #C1C3C3;
 }
 
-.bot-description > div {
+.bot-description > .tile-containter {
     height: 520px;
     background-color: #1E1F1F;
 
@@ -324,6 +320,46 @@ body {
     grid-area: 2 / 2;
     justify-content: center;
     align-content: center;
+}
+
+/* More info windows */
+
+.more-info {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    height: 80%;
+    border-radius: 40px;
+    overflow: auto;
+    background: red;
+    z-index: 10;
+    margin: 10%;
+}
+
+.info-header {
+    background: blue;
+    height: 80px;
+}
+.info-icon {
+    display: inline-flex;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+}
+
+.info-icon > img {
+    transform: scale(.9);
+}
+
+.info-title {
+    display: inline-block;
+    width: 160px;
+    height: 80px;
+    clear: both;
+    align-self: stretch;
+    justify-self: stretch;
 }
 
 /* Event bot section */

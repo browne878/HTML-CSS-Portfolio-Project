@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Bot Solutions</title>
-</head>
+    </head>
 
 <body>
 
@@ -37,12 +37,12 @@
     </header>
 
     <section class="bot-description" id="support-description">
-        <div>
+        <div class="tile-containter">
             <div class="bot-tile">
                 <h2>Support Bot</h2>
 
                 <div class="showcase-image-container">
-                    <img src="/assets/images/support-blue.png" alt="Support Robot with a speach bubble">
+                    <img src="/assets/images/support-blue.png" alt="Support bot icon">
                 </div>
 
                 <p>Our Support Bot is custom made to fit your needs.
@@ -54,18 +54,34 @@
                     We also wanted to be able to store support queries to be reopened if an issue reoccurs.
                 </p>
 
-                <button class="info-button">Read More <i class="fas fa-caret-right"></i></button>
+                <button id="support-info-button" class="info-button">Read More <i class="fas fa-caret-right"></i></button>
+            </div>
+        </div>
+
+        <div id="support-info" class="more-info">
+            <div id="support-info-header" class="info-header">
+                <span class="info-icon">
+                    <img src="assets/images/support-blue.png" alt="Support bot icon">
+                </span>
+
+                <span class="info-title">
+                    <h1>Support Bot</h1>
+                </span>
+
+                <span class="info-close">
+                    <i class="far fa-times-circle"></i>
+                </span>
             </div>
         </div>
     </section>
 
     <section class="bot-description" id="rcon-description">
-        <div>
+        <div class="tile-containter">
             <div class="bot-tile">
                 <h2>Rcon Bot</h2>
 
                 <div class="showcase-image-container">
-                    <img src="/assets/images/rcon-white.png" alt="API icon">
+                    <img src="/assets/images/rcon-white.png" alt="RCON bot icon">
                 </div>
 
                 <p>Our Rcon Bot was designed to address issues and make life easier.
@@ -83,12 +99,12 @@
     </section>
 
     <section class="bot-description" id="event-description">
-        <div>
+        <div class="tile-containter">
             <div class="bot-tile">
                 <h2>Event Bot</h2>
 
                 <div class="showcase-image-container">
-                    <img src="/assets/images/bot-white.png" alt="Colourful confetti icon" id="event-image">
+                    <img src="/assets/images/bot-white.png" alt="Event bot icon">
                 </div>
 
                 <p>Our Event bot was designed to make organising community events easier.
@@ -127,6 +143,22 @@
 
         <p>Copyright Info</p>
     </footer>
+
+    <script>
+        var modal = document.getElementById("support-info");
+
+        var btn = document.getElementById("support-info-button");
+
+        btn.onclick = function() {
+            modal.style.visibility = "visible";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.visibility = "hidden";
+            }
+        }
+    </script>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/0fb73871f8.js" crossorigin="anonymous"></script>
