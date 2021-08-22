@@ -42,7 +42,7 @@
                 <h2>Support Bot</h2>
 
                 <div class="showcase-image-container">
-                    <img src="/assets/images/support-blue.png" alt="Support bot icon">
+                    <img src="/assets/images/support-white.png" alt="Support bot icon">
                 </div>
 
                 <p>Our Support Bot is custom made to fit your needs.
@@ -61,16 +61,28 @@
         <div id="support-info" class="more-info">
             <div id="support-info-header" class="info-header">
                 <span class="info-icon">
-                    <img src="assets/images/support-blue.png" alt="Support bot icon">
+                    <img src="assets/images/support-white.png" alt="Support bot icon">
                 </span>
 
                 <span class="info-title">
                     <h1>Support Bot</h1>
                 </span>
 
-                <span class="info-close">
+                <span id="support-close" class="info-close">
                     <i class="far fa-times-circle"></i>
                 </span>
+            </div>
+
+            <div id="support-features" class="info-features">
+
+            </div>
+
+            <div id="support-compatibility" class="info-compatibility">
+
+            </div>
+
+            <div id="support-customizable" class="info-customizable">
+
             </div>
         </div>
     </section>
@@ -104,7 +116,7 @@
                 <h2>Event Bot</h2>
 
                 <div class="showcase-image-container">
-                    <img src="/assets/images/bot-white.png" alt="Event bot icon">
+                    <img src="/assets/images/event-white.png" alt="Event bot icon">
                 </div>
 
                 <p>Our Event bot was designed to make organising community events easier.
@@ -145,18 +157,29 @@
     </footer>
 
     <script>
-        var modal = document.getElementById("support-info");
+        // Get support more info div
+        var supportModal = document.getElementById("support-info");
 
-        var btn = document.getElementById("support-info-button");
+        // Get support more info button
+        var supportBtn = document.getElementById("support-info-button");
 
-        btn.onclick = function() {
-            modal.style.visibility = "visible";
+        // Get support more info close span
+        var supportClose = document.getElementById("support-close");
+
+        // Makes support info windo visible
+        supportBtn.onclick = function() {
+            supportModal.style.visibility = "visible";
         }
 
+        // Closes support more info window
         window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.visibility = "hidden";
+            if (event.target == supportModal) {
+                supportModal.style.visibility = "hidden";
             }
+        }
+
+        supportClose.onclick = function() {
+            supportModal.style.visibility = "hidden";
         }
     </script>
 

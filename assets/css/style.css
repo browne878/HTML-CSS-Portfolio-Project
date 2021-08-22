@@ -333,13 +333,13 @@ body {
     height: 80%;
     border-radius: 40px;
     overflow: auto;
-    background: red;
+    background: #282A2A;
     z-index: 10;
     margin: 10%;
 }
 
 .info-header {
-    background: blue;
+    background: #141414;
     height: 80px;
     width: 100%;
     position: fixed;
