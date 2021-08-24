@@ -338,6 +338,19 @@ body {
     margin: 10%;
 }
 
+.more-info h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.more-info p {
+    text-align: center;
+    padding: 0% 2%;
+}
+
 .info-header {
     background: #141414;
     height: 80px;
@@ -362,6 +375,43 @@ body {
 
 .info-close {
     font-size: 25px;
+}
+
+.info-features {
+    height: 260px;
+    margin-top: 80px;
+}
+
+.info-features > span {
+    padding: 2% 10%;
+}
+
+.info-features ul {
+    list-style-type: none;
+}
+
+.features-left {
+    float: left;
+    text-align: left;
+    clear: both;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.features-right {
+    float: right;
+    text-align: right;
+    clear: both;
+    margin-right: 10%;
+    padding: 5px;
+}
+
+.info-compatibility {
+    height: 260px;
+}
+
+.info-customizable {
+    height: 260px;
 }
 
 /* Event bot section */

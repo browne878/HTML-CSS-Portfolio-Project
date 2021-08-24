@@ -54,7 +54,7 @@
                     We also wanted to be able to store support queries to be reopened if an issue reoccurs.
                 </p>
 
-                <button id="support-info-button" class="info-button">Read More <i class="fas fa-caret-right"></i></button>
+                <button id="support-info-button" class="info-button" onclick="toggleVisible('support-info-toggle')">Read More <i class="fas fa-caret-right"></i></button>
             </div>
         </div>
 
@@ -68,21 +68,54 @@
                     <h1>Support Bot</h1>
                 </span>
 
-                <span id="support-close" class="info-close">
+                <span id="support-close" class="info-close" onclick="toggleVisible('support-info-toggle')">
                     <i class="far fa-times-circle"></i>
                 </span>
             </div>
 
             <div id="support-features" class="info-features">
+                <h2>Features</h2>
 
+                <ul>
+                    <span class="features-left">
+                        <li>Easy Management</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Automated Questions</li>
+                    </span>
+                    <span class="features-left">
+                        <li>Tickets Logged</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Embedded Commands</li>
+                    </span>
+                    <span class="features-left">
+                        <li>Easy to Use</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Improves Response</li>
+                    </span>
+                </ul>
             </div>
 
             <div id="support-compatibility" class="info-compatibility">
+                <h2>Compatibility</h2>
 
+                <p>
+                    This bot is compatible with any server. All it takes is a short amount of time to customise the bot to your needs and you are good to go!
+                    <br><br>
+                    If there are any features you would like to see or that you need for your server, let us know! We are happy to work with anyone.
+                </p>
             </div>
 
             <div id="support-customizable" class="info-customizable">
+                <h2>Customizable</h2>
 
+                <p>
+                    This bot is as customisable as we could make it! We want you to have full control of what features are enabled and disabled.
+                    <br><br>
+                    We even allow you to customise the features! If you want more, let us know and we will get to work!
+                </p>
             </div>
         </div>
     </section>
@@ -105,7 +138,9 @@
                     We also added RCON commands to discord slash commands!
                 </p>
 
-                <button class="info-button">Read More <i class="fas fa-caret-right"></i></button>
+                <button id="rcon-info-button" class="info-button" onclick="toggleVisible('rcon-info-toggle')">Read More <i class="fas fa-caret-right"></i></button>
+
+                <div id="rcon-info" class="more-info"></div>
             </div>
         </div>
     </section>
@@ -128,7 +163,7 @@
                     We also wanted the bot to calculate the results of polls and suggestions so we decided to Automate this process.
                 </p>
 
-                <button class="info-button">Read More <i class="fas fa-caret-right"></i></button>
+                <button class="info-button" onclick="togggleVisible('event-info-toggle')">Read More <i class="fas fa-caret-right"></i></button>
             </div>
         </div>
     </section>
@@ -157,29 +192,39 @@
     </footer>
 
     <script>
-        // Get support more info div
-        var supportModal = document.getElementById("support-info");
+        function toggleVisible(trigger){
 
-        // Get support more info button
-        var supportBtn = document.getElementById("support-info-button");
+            switch (trigger) {
+                case "support-info-toggle":
+                var supportModal = document.getElementById("support-info");
 
-        // Get support more info close span
-        var supportClose = document.getElementById("support-close");
+                if (supportModal.style.visibility == "visible") {
+                    supportModal.style.visibility = "hidden";
+                } else {
+                    supportModal.style.visibility = "visible"
+                }
+                    break;
 
-        // Makes support info windo visible
-        supportBtn.onclick = function() {
-            supportModal.style.visibility = "visible";
-        }
+                case "rcon-info-toggle":
+                    var rconModal = document.getElementById("rcon-info");
 
-        // Closes support more info window
-        window.onclick = function(event) {
-            if (event.target == supportModal) {
-                supportModal.style.visibility = "hidden";
+                    if (rconModal.style.visibility == "visible") {
+                        rconModal.style.visibility = "hidden";
+                    } else {
+                        rconModal.style.visibility = "visible"
+                    }
+                    break;
+
+                case "event-info-toggle":
+                    var eventModal = document.getElementById("rcon-info");
+
+                    if (eventModal.style.visibility == "visible") {
+                        eventModal.style.visibility = "hidden";
+                    } else {
+                        eventModal.style.visibility = "visible"
+                    }
+                    break;
             }
-        }
-
-        supportClose.onclick = function() {
-            supportModal.style.visibility = "hidden";
         }
     </script>
 
