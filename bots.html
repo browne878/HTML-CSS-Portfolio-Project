@@ -9,8 +9,10 @@
     <meta name="keywords" content="discord bot, gaming, rcon, community, discord support">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/bot-white.png">
 
     <title>Bot Solutions</title>
+
     </head>
 
 <body>
@@ -139,8 +141,67 @@
                 </p>
 
                 <button id="rcon-info-button" class="info-button" onclick="toggleVisible('rcon-info-toggle')">Read More <i class="fas fa-caret-right"></i></button>
+            </div>
+        </div>
 
-                <div id="rcon-info" class="more-info"></div>
+        <div id="rcon-info" class="more-info">
+            <div id="rcon-info-header" class="info-header">
+                <span class="info-icon">
+                    <img src="assets/images/rcon-white.png" alt="RCON bot icon">
+                </span>
+
+                <span class="info-title">
+                    <h1>RCON Bot</h1>
+                </span>
+
+                <span id="rcon-close" class="info-close" onclick="toggleVisible('rcon-info-toggle')">
+                    <i class="far fa-times-circle"></i>
+                </span>
+            </div>
+
+            <div id="support-features" class="info-features">
+                <h2>Features</h2>
+
+                <ul>
+                    <span class="features-left">
+                        <li>Easy Management</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Automated Questions</li>
+                    </span>
+                    <span class="features-left">
+                        <li>Tickets Logged</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Embedded Commands</li>
+                    </span>
+                    <span class="features-left">
+                        <li>Easy to Use</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Improves Response</li>
+                    </span>
+                </ul>
+            </div>
+
+            <div id="support-compatibility" class="info-compatibility">
+                <h2>Compatibility</h2>
+
+                <p>
+                    This bot is compatible with any server. All it takes is a short amount of time to customise the bot to your needs and you are good to go!
+                    <br><br>
+                    If there are any features you would like to see or that you need for your server, let us know! We are happy to work with anyone.
+                </p>
+            </div>
+
+            <div id="support-customizable" class="info-customizable">
+                <h2>Customizable</h2>
+
+                <p>
+                    This bot is as customisable as we could make it! We want you to have full control of what features are enabled and disabled.
+                    <br><br>
+                    We even allow you to customise the features! If you want more, let us know and we will get to work!
+                </p>
             </div>
         </div>
     </section>
@@ -163,7 +224,68 @@
                     We also wanted the bot to calculate the results of polls and suggestions so we decided to Automate this process.
                 </p>
 
-                <button class="info-button" onclick="togggleVisible('event-info-toggle')">Read More <i class="fas fa-caret-right"></i></button>
+                <button class="info-button" onclick="toggleVisible('event-info-toggle')">Read More <i class="fas fa-caret-right"></i></button>
+            </div>
+        </div>
+
+        <div id="event-info" class="more-info">
+            <div id="event-info-header" class="info-header">
+                <span class="info-icon">
+                    <img src="assets/images/event-white.png" alt="Event bot icon">
+                </span>
+
+                <span class="info-title">
+                    <h1>Event Bot</h1>
+                </span>
+
+                <span id="event-close" class="info-close" onclick="toggleVisible('event-info-toggle')">
+                    <i class="far fa-times-circle"></i>
+                </span>
+            </div>
+
+            <div id="support-features" class="info-features">
+                <h2>Features</h2>
+
+                <ul>
+                    <span class="features-left">
+                        <li>Easy Management</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Automated Questions</li>
+                    </span>
+                    <span class="features-left">
+                        <li>Tickets Logged</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Embedded Commands</li>
+                    </span>
+                    <span class="features-left">
+                        <li>Easy to Use</li>
+                    </span>
+                    <span class="features-right">
+                        <li>Improves Response</li>
+                    </span>
+                </ul>
+            </div>
+
+            <div id="support-compatibility" class="info-compatibility">
+                <h2>Compatibility</h2>
+
+                <p>
+                    This bot is compatible with any server. All it takes is a short amount of time to customise the bot to your needs and you are good to go!
+                    <br><br>
+                    If there are any features you would like to see or that you need for your server, let us know! We are happy to work with anyone.
+                </p>
+            </div>
+
+            <div id="support-customizable" class="info-customizable">
+                <h2>Customizable</h2>
+
+                <p>
+                    This bot is as customisable as we could make it! We want you to have full control of what features are enabled and disabled.
+                    <br><br>
+                    We even allow you to customise the features! If you want more, let us know and we will get to work!
+                </p>
             </div>
         </div>
     </section>
@@ -216,7 +338,7 @@
                     break;
 
                 case "event-info-toggle":
-                    var eventModal = document.getElementById("rcon-info");
+                    var eventModal = document.getElementById("event-info");
 
                     if (eventModal.style.visibility == "visible") {
                         eventModal.style.visibility = "hidden";
