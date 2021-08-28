@@ -29,6 +29,14 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 ## **Features**
 
+- ### **Navigation**
+
+- ### **Footer**
+
+- ### **Home Page - [index.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/index.html)**
+
+    
+
 ## **Future Development**
 
 ## **Testing**
