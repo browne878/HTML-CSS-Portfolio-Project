@@ -1,8 +1,8 @@
 # **Bot Solutions**
 
-insert banner here
+![Bot Logo](assets/images/bot-white.png) ![Support Logo](assets/images/support-white.png) ![Rcon Logo](assets/images/rcon-white.png) ![Event Logo](assets/images/event-white.png)
 
-You can see the live website [here]().
+You can see the live website [here](https://browne878.github.io/HTML-CSS-Portfolio-Project/).
 
 The purpose of this website is to advertise Discord bots. It does this by giving explanations to what each bot does and gives some insight to why each bot was developed.
 
