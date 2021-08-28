@@ -35,7 +35,35 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 - ### **Home Page - [index.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/index.html)**
 
+    - Site Brief Section
+
+    - Why we do it Section
+
+    - Bot Showcase Section
+
+- ### **Bots Page - [bots.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/bots.html)**
+
+    - Support Bot Section
+
+        - Support Bot More Info
+
+    - Rcon Bot Section
+
+        - Rcon Bot More Info
     
+    - Event Bot Section
+
+        - Event Bot More Info
+
+- ### **About Page - [about.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/about.html)**
+
+    - Who are we Section
+
+    - What we do Section
+
+    - Why we do it Section
+
+- ### **Contact Page - [contact.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/contact.html)**
 
 ## **Future Development**
 
