@@ -10,7 +10,12 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 ## **Table of Contents**
 - ### [Features](https://github.com/browne878/HTML-CSS-Portfolio-Project#features)
-    - sub features
+    - [Navigation](https://github.com/browne878/HTML-CSS-Portfolio-Project#navigation)
+    - [Footer](https://github.com/browne878/HTML-CSS-Portfolio-Project#footer)
+    - [Home Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#home-page---indexhtml)
+    - [Bot Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#bots-page---botshtml)
+    - [About Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#about-page---abouthtml)
+    - [Contact Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#contact-page---contacthtml)
 
 - ### [Future Development](https://github.com/browne878/HTML-CSS-Portfolio-Project#future-development)
     - sub future development
