@@ -137,8 +137,8 @@ body {
 
 #showcase-container {
     display: grid;
-    grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 10% 1fr 10%;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 80% 10%;
 
     width: 100%;
     height: 100%;
@@ -574,4 +574,64 @@ fieldset > div{
     height: 120px;
     text-align: center;
     margin: 10% 5%;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 600px) {
+    
+    /* Home Page */
+
+    #bot-brief {
+        height: 75%;
+        width: 75%;
+        place-self: center center;
+    }
+
+    #support {
+        width: 60%;
+        place-self: center center;
+    }
+
+    /* Bots Page */
+
+    .tile-containter {
+        width: 70%;
+        place-self: center center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    /* Contact Page */
+
+    #alt-contact {
+        margin: 5% 5%;
+    }
+
+    #contact-form {
+        padding-bottom: 0%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    /* Contact Page */
+
+    .text-box {
+        width: 50%;
+    }
+
+    /* About Page */
+
+    #about-who h2,
+    #about-what h2,
+    #about-why h2 {
+        padding-top: 5%;
+    }
+
+    /* Home Page */
+
+    #showcase {
+        background: url('../images/matrix-background.jpg') fixed no-repeat bottom/200%;
+    }
 }
