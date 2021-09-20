@@ -269,8 +269,11 @@ body {
     color: #C1C3C3;
 }
 
-.bot-description > .tile-containter {
+.bot-description {
     height: 520px;
+}
+
+.bot-description > .tile-containter {
     background-color: #1E1F1F;
 
     display: grid;
@@ -313,7 +316,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 2fr 7fr 9fr  1fr 1fr;
+    grid-template-rows: 2fr 7fr 9fr 1fr;
 }
 
 .bot-tile > .showcase-image-container {
@@ -408,10 +411,38 @@ body {
 
 .info-compatibility {
     height: 260px;
+
+    display: grid;
+    grid-template-columns: 1fr 18fr 1fr;
+    grid-template-rows: 1fr 4fr 14fr 1fr;
+}
+
+.info-compatibility > h2 {
+    grid-area: 2 / 2 / 3 / 3;
+    place-self: center center;
+}
+
+.info-compatibility > p {
+    grid-area: 3 / 2 / 4 / 3;
+    place-self: center center;
 }
 
 .info-customizable {
     height: 260px;
+
+    display: grid;
+    grid-template-columns: 1fr 18fr 1fr;
+    grid-template-rows: 1fr 4fr 14fr 1fr;
+}
+
+.info-customizable > h2 {
+    grid-area: 2 / 2 / 3 / 3;
+    place-self: center center;
+}
+
+.info-customizable > p {
+    grid-area: 3 / 2 / 4 / 3;
+    place-self: center center;
 }
 
 /* Event bot section */
@@ -597,9 +628,16 @@ fieldset > div{
 
     .tile-containter {
         width: 70%;
-        place-self: center center;
         padding-left: 15%;
         padding-right: 15%;
+    }
+
+    .features-left {
+        padding: 1%;
+    }
+
+    .features-right {
+        padding: 1%;
     }
 
     /* Contact Page */
@@ -621,6 +659,18 @@ fieldset > div{
         width: 50%;
     }
 
+    #contact-form input {
+        margin: 10px;
+    }
+
+    /* Bot Page */
+
+    .tile-containter {
+        width: 50%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
     /* About Page */
 
     #about-who h2,
@@ -633,5 +683,161 @@ fieldset > div{
 
     #showcase {
         background: url('../images/matrix-background.jpg') fixed no-repeat bottom/200%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Navigation */
+
+    #header-container {
+        grid-template-columns: 1fr 15fr 15fr 20fr 1fr;
+        grid-template-rows: 80px;
+    }
+
+    #logo {
+        grid-column: 2 / 3;
+        place-self: center center;
+    }
+
+    #nav {
+        grid-column: 4 / 5;
+        grid-row: 1;
+        align-self: center;
+        display: inline;
+    }
+
+    /* Home Page */
+
+    .reason {
+        padding: 2.5% 5%;
+    }
+
+    #bot-brief {
+        width: 50%;
+    }
+
+    #reason-section h2 {
+        padding: 2.5%;
+    }
+
+    #showcase-container {
+        grid-template-columns: 5% 40% 10% 40% 5%;
+    }
+
+    #support {
+        width: 80%;
+    }
+
+    #rcon {
+        visibility: visible;
+        width: 80%;
+        place-self: center center;
+        grid-area: 2 / 4 / 3 / 5;
+    }
+
+    /* About Us */
+
+    #about-who p,
+    #about-what p,
+    #about-why p {
+        margin: 7.5% 5%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    /* Bot Page */
+
+    .bot-description {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 4fr 1fr 9fr 1fr;
+        grid-template-rows: 1fr 18fr 1fr;
+    }
+
+    .bot-description > .tile-containter {
+        width: 100%;
+        padding: 0 0;
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .bot-tile {
+        grid-area: 1 / 1 / 4 / 4;
+    }
+
+    .info-button {
+        visibility: hidden;
+    }
+
+    .more-info {
+        visibility: visible;
+        position: relative;
+        display: inline;
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        z-index: 0;
+
+        grid-area: 2 / 4 / 3 / 5;
+    }
+
+    .info-header {
+        visibility: hidden;
+    }
+
+    #support-features {
+        margin: 0%;
+    }
+
+    .features-right {
+        clear: none;
+    }
+
+    .features-left,
+    .features-right {
+        padding: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    
+    /* Home Page */
+
+    #showcase-container {
+        grid-template-columns: 2.5% 30% 2.5% 30% 2.5% 30% 2.5%;
+    }
+
+    #event {
+        visibility: visible;
+
+        grid-area: 2 / 6;
+        width: 80%;
+        place-self: center center;
+    }
+
+    /* About Page */
+
+    #about-who p,
+    #about-what p,
+    #about-why p {
+        margin: 6% 5%;
+    }
+}
+
+@media screen and (min-width: 1600px){
+
+    /* Home Page */
+
+    .reason {
+        padding: 2% 5%;
+    }
+
+    /* About Page */
+
+    #about-who p,
+    #about-what p,
+    #about-why p {
+        margin: 5% 5%;
     }
 }
