@@ -158,4 +158,4 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 - [Matrix Background](assets/images/matrix-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/)
 - [Code Background](assets/images/code-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/computer-program-language-text-614117/)
-- These Bot Icons ([Bot](assets/images/bot-white), [Support](assets/images/event-white), [Rcon](assets/images/rcon-white), [Event](assets/images/event-white)) were designed and made by [little_brain#6439]() on Discord.
+- These Bot Icons ([Bot](assets/images/bot-white.png), [Support](assets/images/event-white.png), [Rcon](assets/images/rcon-white.png), [Event](assets/images/event-white.png)) were designed and made by [little_brain#6439]() on Discord.
