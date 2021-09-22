@@ -154,6 +154,16 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 ## **Deployment**
 
+I deployed this website using GitHub Pages. The steps I took to do this are as follows.
+
+1. Start by navigating to the GitHub repository.
+2. Next, towards the top of the page, navigate to the `Settings` tab.
+3. After this, on the menu of the left of the page, click on the `Pages` tab.
+4. Now, click the `Branch` dropdown menu and select `Main` or whatever the name of your main branch is.
+5. Finally, wait for the site to be published. This can take a few moments. The link will be shown at the top of the page.
+
+The link to my published website is: https://browne878.github.io/HTML-CSS-Portfolio-Project/
+
 ## **Credits**
 
 - [Matrix Background](assets/images/matrix-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/)
