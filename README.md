@@ -36,7 +36,18 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 - ### **Navigation**
 
+    - This is a simple header which contains the site name and the Navigation for the website. It remains visible and always on top throughout the website to allow the user to have easy navigation.
+    - It remains consistant on each page to prevent any major changes in style and theme throughout the website.
+
+    ![Screenshot of the Header and Navigation](assets/images/images-readme/header.png)
+
 - ### **Footer**
+
+    - The footer is styled to be clean and not distract the user from the content of the site.
+    - It contains 3 social media icons that link to our pages on those platforms.
+    - The style remains consistant on each page to prevent any changes in theme throughout the website.
+
+    ![Screenshot of the Footer](assets/images/images-readme/footer.png)
 
 - ### **Home Page - [index.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/index.html)**
 
