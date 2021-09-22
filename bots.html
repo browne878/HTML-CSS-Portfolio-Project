@@ -17,6 +17,7 @@
 
 <body>
 
+    <!-- Navigation with logo container -->
     <header>
         <div id="header-container">
             <a href="index.html" id="logo">
@@ -38,6 +39,7 @@
         <div id="header-bar"></div>
     </header>
 
+    <!-- Information about Support Bot -->
     <section class="bot-description" id="support-description">
         <div class="tile-containter">
             <div class="bot-tile">
@@ -57,11 +59,14 @@
                     We also wanted to be able to store support queries to be reopened if an issue reoccurs.
                 </p>
 
+                <!-- Hidden after 1100px wide -->
                 <button id="support-info-button" class="info-button" onclick="toggleVisible('support-info-toggle')">Read
                     More <i class="fas fa-caret-right"></i></button>
             </div>
         </div>
 
+        <!-- Shown by read more button up to 1100px
+        Always visible after 1100px -->
         <div id="support-info" class="more-info">
             <div id="support-info-header" class="info-header">
                 <span class="info-icon">
@@ -115,6 +120,7 @@
         </div>
     </section>
 
+    <!-- Information about RCON Bot -->
     <section class="bot-description" id="rcon-description">
         <div class="tile-containter">
             <div class="bot-tile">
@@ -134,11 +140,14 @@
                     We also added RCON commands to discord slash commands!
                 </p>
 
+                <!-- Hidden after 1100px wide -->
                 <button id="rcon-info-button" class="info-button" onclick="toggleVisible('rcon-info-toggle')">Read More
                     <i class="fas fa-caret-right"></i></button>
             </div>
         </div>
 
+        <!-- Shown by read more button up to 1100px
+        Always visible after 1100px -->
         <div id="rcon-info" class="more-info">
             <div id="rcon-info-header" class="info-header">
                 <span class="info-icon">
@@ -192,6 +201,7 @@
         </div>
     </section>
 
+    <!-- Information about Event Bot -->
     <section class="bot-description" id="event-description">
         <div class="tile-containter">
             <div class="bot-tile">
@@ -211,11 +221,14 @@
                     this process.
                 </p>
 
+                <!-- Hidden after 1100px wide -->
                 <button class="info-button" onclick="toggleVisible('event-info-toggle')">Read More <i
                         class="fas fa-caret-right"></i></button>
             </div>
         </div>
 
+        <!-- Shown by read more button up to 1100px
+        Always visible after 1100px -->
         <div id="event-info" class="more-info">
             <div id="event-info-header" class="info-header">
                 <span class="info-icon">
@@ -268,6 +281,7 @@
         </div>
     </section>
 
+    <!-- Footer with social media links and copyright information -->
     <footer>
         <h3>Follow Us!</h3>
 
@@ -291,10 +305,14 @@
         <p>Copyright Info</p>
     </footer>
 
+    <!-- Controls Read More buttons -->
     <script>
         function toggleVisible(trigger) {
 
+            // Switches on trigger ID from element that triggered event
             switch (trigger) {
+
+                // Toggles Support Bot info visibility below 1100px
                 case "support-info-toggle":
                     var supportModal = document.getElementById("support-info");
 
@@ -304,7 +322,8 @@
                         supportModal.style.visibility = "visible"
                     }
                     break;
-
+                
+                // Toggles RCON Bot info visibilty below 1100px
                 case "rcon-info-toggle":
                     var rconModal = document.getElementById("rcon-info");
 
@@ -315,6 +334,7 @@
                     }
                     break;
 
+                // Toggles Event Bot info visibility below 1100px
                 case "event-info-toggle":
                     var eventModal = document.getElementById("event-info");
 
