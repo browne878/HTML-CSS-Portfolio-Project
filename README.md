@@ -42,9 +42,24 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
     - Site Brief Section
 
+        - This section is the first thing someone will see when visiting the site. For this reason it is intended to be eye catching and give the user an idea of what this site is for.
+        - The brief tile has a short few sentences intended to catch the attention of someone visiting the site.
+
+        ![Screenshot of Site Brief Section](assets/images/images-readme/site-brief.png)
+
     - Why we do it Section
 
+        - This section is intended to give someone an idea of why we develop discord bots and make them want to look further into what we do.
+        - Each point is kept short to make the user want to go and find out more information and explore the website.
+
+        ![Screenshot of Why We Do This Brief Section](assets/images/images-readme/about-brief.png)
+
     - Bot Showcase Section
+
+        - This section is to show off some of our previous projects and give the user some key information about them.
+        - This section is kept very breif to incourage the user to want to get more information and explore the site.
+
+        ![Screenshot of Bot Showcase Section](assets/images/images-readme/bot-showcase.png)
 
 - ### **Bots Page - [bots.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/bots.html)**
 
