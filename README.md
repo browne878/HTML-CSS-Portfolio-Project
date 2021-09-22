@@ -50,15 +50,34 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
     - Support Bot Section
 
+        - This section is to provide an overview of the Support Bot and allow the user to access additional information if they require it.
+
         - Support Bot More Info
+
+            - This is to give people all the information about the bot if they require it.
+            - On smaller screen sizes this is hidden behind a button so that it doesn't overwhelm anyone with too much information they are not interested in.
+
+        ![Screenshot of the Support Bot Section](assets/images/images-readme/support-info.png)
 
     - Rcon Bot Section
 
+        - This section provides an overview of what the RCON Bot is and allow further information to be gotten easily.
+
         - Rcon Bot More Info
+            - This is to give all of the information about what the RCON bot is and what it can do.
+            - On smaller screen sizes this is hidden so that there isn't too much information shown all at once.
+
+        ![Screenshot of the RCON Bot Section](assets/images/images-readme/rcon-info.png)
     
     - Event Bot Section
 
+        - This section is to provide information about what the Event Bot is and what it does.
+
         - Event Bot More Info
+            - This section allows the user to access more detailed information about what the Event Bot can do.
+            - This section is hidden on smaller screen sizes in order to keep the website clean and easy to read.
+
+        ![Screenshot of the Event Bot Section](assets/images/images-readme/event-info.png)
 
 - ### **About Page - [about.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/about.html)**
 
