@@ -64,13 +64,32 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
     - Who are we Section
 
+        - We like to be open about who we are. This section of our website focuses on this to give people an idea. This will help gain the trust of people who either wish to use one of our bots or wish to collaborate with us.
+
+        ![Screenshot of the Who We Are Section](assets/images/images-readme/who-are-we-section.png)
+
     - What we do Section
+
+        - This is an explanation to people about what exactly our team does. This is to give people an idea on what we do and what we don't do.
+
+        ![Screenshot of the What Do We Do section](assets/images/images-readme/what-we-do-section.png)
 
     - Why we do it Section
 
+        - This section is to give people context to why we spend our free time making discord bots. By being transparent we believe that it will help people trust what we do.
+
+        ![Screenshot of the Why We Do This Section](assets/images/images-readme/why-we-do-this-section.png)
+
 - ### **Contact Page - [contact.html](https://github.com/browne878/HTML-CSS-Portfolio-Project/blob/Main/contact.html)**
 
-![Screenshot of Support Page](assets/images/images-readme/contact-page.png)
+    - This form allows the user to reach out to us for multiple reasons. These are:
+        - For a Newsletter
+        - For Support
+        - To Work with us
+
+    - This is a simple contact form that only requests information that is required. It can allow the user to get any help they need, stay up to date on out projects and ask to collaborate.
+
+    ![Screenshot of Support Page](assets/images/images-readme/contact-page.png)
 
 ## **Future Development**
 
