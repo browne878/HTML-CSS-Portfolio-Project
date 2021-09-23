@@ -138,17 +138,22 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 ## **Future Development**
 
-    - Burger Menu
+- Burger Menu
         - I plan to add a burger menu for navigation on smaller screen sizes at a later date. I believe this will make the header look a lot better on smaller screen sizes and make it easy on touch screens.
 
-    - Side Navigation for Bots Page
+- Side Navigation for Bots Page
         - As the number of bots increases I plan to change the bots page to have a navigation element on the left side of the screen. This will allow the user to navigate the list of bots for information easily.
         - I did not impliment this feature now as I do not think that we have enough bots to justify it. It would leave the page feeling empty and the extra navigation would take up more space than needed.
 
-    - Live Chat for Support Issues
+- Live Chat for Support Issues
         - I would like to add this feature directly into the website in the future as I believe it would make reaching out to the team a lot easier for the user. It would prevent us from having to direct the user away from the website for live support.
 
 ## **Testing**
+
+- Lighthouse
+    - I began by using generating a Lighthouse report for each page of the website for mobile and desktop. This allowed me to identify that the background images I was using were too big. To resolve this, I cut them down to 1920x1080 which is a more reasonable size to work.
+
+- 
 
 ## **Bugs**
 
