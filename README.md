@@ -9,7 +9,7 @@ The purpose of this website is to advertise Discord bots. It does this by giving
 My aim with this website was to use a similar colour scheme to discord to match where the bots will be used. I also wanted to make the website easy to navigate and not overwhelm the user with information. I wanted to keep all the information concise but make more detail easily availible to the user if the require it.
 
 ## **Table of Contents**
-- ### [Features](https://github.com/browne878/HTML-CSS-Portfolio-Project#features)
+- ### [Features](https://github.com/browne878/HTML-CSS-Portfolio-Project#features-1)
     - [Navigation](https://github.com/browne878/HTML-CSS-Portfolio-Project#navigation)
     - [Footer](https://github.com/browne878/HTML-CSS-Portfolio-Project#footer)
     - [Home Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#home-page---indexhtml)
@@ -17,20 +17,22 @@ My aim with this website was to use a similar colour scheme to discord to match 
     - [About Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#about-page---abouthtml)
     - [Contact Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#contact-page---contacthtml)
 
-- ### [Future Development](https://github.com/browne878/HTML-CSS-Portfolio-Project#future-development)
-    - sub future development
+- ### [Future Development](https://github.com/browne878/HTML-CSS-Portfolio-Project#future-development-1)
 
-- ### [Testing](https://github.com/browne878/HTML-CSS-Portfolio-Project#testing)
-    - sub testing
+- ### [Testing](https://github.com/browne878/HTML-CSS-Portfolio-Project#testing-1)
+    - [Lighthouse](https://github.com/browne878/HTML-CSS-Portfolio-Project#lighthouse)
+    - [HTML Validator](https://github.com/browne878/HTML-CSS-Portfolio-Project#html-validator)
+    - [CSS Validator](https://github.com/browne878/HTML-CSS-Portfolio-Project#css-validator)
 
-- ### [Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#bugs)
-    - sub bugs
+- ### [Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#bugs-1)
+    - [Bots Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#bots-page)
 
-- ### [Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#deployment)
-    - sub deployment
+- ### [Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#deployment-1)
+    - [Cloning/Forking Repository](https://github.com/browne878/HTML-CSS-Portfolio-Project#cloning--forking-repository)
+    - [Local Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#local-deployment)
+    - [Remote Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#remote-deployment)
 
-- ### [Credits](https://github.com/browne878/HTML-CSS-Portfolio-Project#credits)
-    - sub credits
+- ### [Credits](https://github.com/browne878/HTML-CSS-Portfolio-Project#credits-1)
 
 ## **Features**
 
@@ -68,7 +70,7 @@ My aim with this website was to use a similar colour scheme to discord to match 
     - Bot Showcase Section
 
         - This section is to show off some of our previous projects and give the user some key information about them.
-        - This section is kept very breif to incourage the user to want to get more information and explore the site.
+        - This section is kept very breif to encourage the user to want to get more information and explore the site.
 
         ![Screenshot of Bot Showcase Section](assets/images/images-readme/bot-showcase.png)
 
@@ -223,4 +225,4 @@ The link to my published website is: https://browne878.github.io/HTML-CSS-Portfo
 
 - [Matrix Background](assets/images/matrix-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/)
 - [Code Background](assets/images/code-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/computer-program-language-text-614117/)
-- These Bot Icons ([Bot](assets/images/bot-white.png), [Support](assets/images/event-white.png), [Rcon](assets/images/rcon-white.png), [Event](assets/images/event-white.png)) were designed and made by [little_brain#6439]() on Discord.
+- These Bot Icons ([Bot](assets/images/bot-white.png), [Support](assets/images/support-white.png), [Rcon](assets/images/rcon-white.png), [Event](assets/images/event-white.png)) were designed and made by little_brain#6439 on Discord.
