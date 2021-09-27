@@ -1,3 +1,5 @@
+document.getElementById('copyright-date').textContent = new Date().getFullYear();
+
 function toggleVisible(trigger) {
 
     // Switches on trigger ID from element that triggered event
