@@ -70,7 +70,7 @@ My aim with this website was to use a similar colour scheme to discord to match 
     - Bot Showcase Section
 
         - This section is to show off some of our previous projects and give the user some key information about them.
-        - This section is kept very breif to incourage the user to want to get more information and explore the site.
+        - This section is kept very breif to encourage the user to want to get more information and explore the site.
 
         ![Screenshot of Bot Showcase Section](assets/images/images-readme/bot-showcase.png)
 
