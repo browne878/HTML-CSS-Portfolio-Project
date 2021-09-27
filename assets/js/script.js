@@ -12,7 +12,7 @@ function toggleVisible(trigger) {
             if (supportModal.style.visibility == "visible") {
                 supportModal.style.visibility = "hidden";
             } else {
-                supportModal.style.visibility = "visible"
+                supportModal.style.visibility = "visible";
             }
             break;
         
@@ -23,7 +23,7 @@ function toggleVisible(trigger) {
             if (rconModal.style.visibility == "visible") {
                 rconModal.style.visibility = "hidden";
             } else {
-                rconModal.style.visibility = "visible"
+                rconModal.style.visibility = "visible";
             }
             break;
 
@@ -34,7 +34,7 @@ function toggleVisible(trigger) {
             if (eventModal.style.visibility == "visible") {
                 eventModal.style.visibility = "hidden";
             } else {
-                eventModal.style.visibility = "visible"
+                eventModal.style.visibility = "visible";
             }
             break;
     }
