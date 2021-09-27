@@ -19,20 +19,20 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 - ### [Future Development](https://github.com/browne878/HTML-CSS-Portfolio-Project#future-development-1)
 
-- ### [Testing](https://github.com/browne878/HTML-CSS-Portfolio-Project#testing)
+- ### [Testing](https://github.com/browne878/HTML-CSS-Portfolio-Project#testing-1)
     - [Lighthouse](https://github.com/browne878/HTML-CSS-Portfolio-Project#lighthouse)
     - [HTML Validator](https://github.com/browne878/HTML-CSS-Portfolio-Project#html-validator)
     - [CSS Validator](https://github.com/browne878/HTML-CSS-Portfolio-Project#css-validator)
 
-- ### [Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#bugs)
+- ### [Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#bugs-1)
     - [Bots Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#bots-page)
 
-- ### [Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#deployment)
+- ### [Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#deployment-1)
     - [Cloning/Forking Repository](https://github.com/browne878/HTML-CSS-Portfolio-Project#cloning--forking-repository)
     - [Local Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#local-deployment)
     - [Remote Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#remote-deployment)
 
-- ### [Credits](https://github.com/browne878/HTML-CSS-Portfolio-Project#credits)
+- ### [Credits](https://github.com/browne878/HTML-CSS-Portfolio-Project#credits-1)
 
 ## **Features**
 
@@ -225,4 +225,4 @@ The link to my published website is: https://browne878.github.io/HTML-CSS-Portfo
 
 - [Matrix Background](assets/images/matrix-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/)
 - [Code Background](assets/images/code-background.jpg) downloaded from [Pexels](https://www.pexels.com/photo/computer-program-language-text-614117/)
-- These Bot Icons ([Bot](assets/images/bot-white.png), [Support](assets/images/event-white.png), [Rcon](assets/images/rcon-white.png), [Event](assets/images/event-white.png)) were designed and made by little_brain#6439 on Discord.
+- These Bot Icons ([Bot](assets/images/bot-white.png), [Support](assets/images/support-white.png), [Rcon](assets/images/rcon-white.png), [Event](assets/images/event-white.png)) were designed and made by little_brain#6439 on Discord.
