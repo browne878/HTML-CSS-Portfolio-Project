@@ -612,6 +612,32 @@ fieldset > div{
 
 /* Media Queries */
 
+@media screen and (min-width: 320px) {
+
+    /* Navigation */
+
+    #nav ul {
+        font-size: 19px;
+    }
+
+    .bot-description > .tile-containter {
+        grid-template-rows: 1fr 15fr;
+        grid-template-columns: 1fr 8fr 1fr;
+    }
+    
+    /* Home Page */
+
+    #showcase {
+        background: url('../images/matrix-background.jpg') fixed no-repeat bottom/380%;
+    }
+
+    /* Bots Page */
+
+    .bot-description .bot-tile > button {
+        margin-left: 60%;
+    }
+}
+
 @media screen and (min-width: 600px) {
     
     /* Home Page */
