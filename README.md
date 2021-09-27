@@ -155,10 +155,14 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 ### HTML Validator
 - Once the website was completed, I entered each page into the [W3C Markup Validation Service](https://validator.w3.org/). The results from each can be found in the following locations:
-    - Home Page ([index.html]())
-    - Bots Page ([bots.html]())
-    - About Page ([about.html]())
-    - Contact Page ([contact.html]())
+    - Home Page ([index.html](assets/images/images-readme/html-checker-index.png))
+    - Bots Page ([bots.html](assets/images/images-readme/html-checker-bots.png))
+    - About Page ([about.html](assets/images/images-readme/html-checker-about.png))
+    - Contact Page ([contact.html](assets/images/images-readme/html-checker-contact.png))
+
+### CSS Validator
+- Once I completed the website, I entered the CSS file into [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The results from the CSS file can be found [here](assets/images/images-readme/css-validator.png).
+    - There were no errors found in the validation however, there were warnings related to browser specific extensions that can be ignored.
 
 ## **Bugs**
 
