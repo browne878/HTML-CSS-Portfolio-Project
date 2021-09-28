@@ -25,11 +25,11 @@ My aim with this website was to use a similar colour scheme to discord to match 
     - [CSS Validator](https://github.com/browne878/HTML-CSS-Portfolio-Project#css-validator)
 
 - ### [Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#bugs-1)
-    - [Unfixed Bugs]()
+    - [Unfixed Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#unfixed-bugs)
         - [Bots Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#bots-page)
-    - [Fixed Bugs]()
-        - [Navigation]()
-        - [Home Page]()
+    - [Fixed Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#fixed-bugs)
+        - [Navigation](https://github.com/browne878/HTML-CSS-Portfolio-Project#navigation-1)
+        - [Home Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#home-page)
 
 - ### [Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#deployment-1)
     - [Cloning/Forking Repository](https://github.com/browne878/HTML-CSS-Portfolio-Project#cloning--forking-repository)
