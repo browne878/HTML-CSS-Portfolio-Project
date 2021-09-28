@@ -153,7 +153,7 @@ My aim with this website was to use a similar colour scheme to discord to match 
 ## **Testing**
 
 ### Lighthouse
-- I began by using generating a Lighthouse report for each page of the website for mobile and desktop. This allowed me to identify that the background images I was using were too big. To resolve this, I cut them down to 1920x1080 which is a more reasonable size to work.
+- I began by using generating a Lighthouse report for each page of the website for mobile and desktop. This allowed me to identify that the background images I was using were too big. To resolve this, I cut them down to 1920x1080 which is a more reasonable size to work. All of the lighthouse results are available [here](assets/images/images-lighthouse)
 
 ### HTML Validator
 - Once the website was completed, I entered each page into the [W3C Markup Validation Service](https://validator.w3.org/). The results from each can be found in the following locations:
@@ -168,10 +168,18 @@ My aim with this website was to use a similar colour scheme to discord to match 
 
 ## **Bugs**
 
-### Bots Page
+### Unfixed Bugs
+
+#### Bots Page
 There is 1 known bug on the Bots Page. This bug occurs once you open and close one of the Bot Modals and then increase the screen size to greater than 1100px wide. The modal closed will not appear after adjusting the screen size.
 
 ![Screenshot of Bug](assets/images/images-readme/bots-page-bug.png)
+
+### Fixed Bugs
+
+#### Home Page
+
+
 
 ## **Deployment**
 
