@@ -25,7 +25,11 @@ My aim with this website was to use a similar colour scheme to discord to match 
     - [CSS Validator](https://github.com/browne878/HTML-CSS-Portfolio-Project#css-validator)
 
 - ### [Bugs](https://github.com/browne878/HTML-CSS-Portfolio-Project#bugs-1)
-    - [Bots Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#bots-page)
+    - [Unfixed Bugs]()
+        - [Bots Page](https://github.com/browne878/HTML-CSS-Portfolio-Project#bots-page)
+    - [Fixed Bugs]()
+        - [Navigation]()
+        - [Home Page]()
 
 - ### [Deployment](https://github.com/browne878/HTML-CSS-Portfolio-Project#deployment-1)
     - [Cloning/Forking Repository](https://github.com/browne878/HTML-CSS-Portfolio-Project#cloning--forking-repository)
@@ -177,9 +181,11 @@ There is 1 known bug on the Bots Page. This bug occurs once you open and close o
 
 ### Fixed Bugs
 
+#### Navigation
+I had a bug with the header bar not being on top. Images on the index and bots pages would appear on top when scrolling. In order to fix this I increased the Z Index of the header container to 10. This make sure that the header container will always be on top. Click [this](https://github.com/browne878/HTML-CSS-Portfolio-Project/commit/c7869391b1a98974f9d15f83c15bf124f4bafcb0) to look at the commit that fixed the bug.
+
 #### Home Page
-
-
+Aother bug I had was with the showcase section of the home page. The background image is fixed and didn't cover the the area while scrolling. In order to resolve this I increased the scaling of the image in order to make it fit. Due to the image scaling the background does appear blured. This is an intended feature that draws the users focus to the showcased bots.
 
 ## **Deployment**
 
